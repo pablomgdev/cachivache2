@@ -3,7 +3,7 @@
 <p>Application that enables its users to upload images of the things they like, informing their friends about these preferences. This facilitates choosing appropriate gifts for special occasions, such as birthdays.</p>
 
 > [!NOTE]
-> This solution replaces <a href=https://github.com/pablomgdev/cachivache2-api>cachivache2-api</a>. Monorepo with all the artefacts needed (frontend, backend, etc).
+> This solution replaces <a href=https://github.com/pablomgdev/cachivache2-api>cachivache2-api</a>. Now it iss a monorepo with all the artefacts needed (frontend, backend, etc).
 
 
 ## Why has this project been created?
