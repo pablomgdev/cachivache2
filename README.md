@@ -7,7 +7,7 @@
 
 
 ## 📄 Table of content
-- [Why has this project been created?](https://github.com/pablomgdev/cachivache2#why-has-this-project-been-created).
+- [Why has this project been created?](https://github.com/pablomgdev/cachivache2#why-has-this-project-been-created)
 
 
 ## ℹ️ Why has this project been created?
@@ -16,3 +16,6 @@ Have you ever felt lost not knowing what to give someone because you're unsure o
 With this app, individuals can upload pictures of things to let their friends know about their preferences. However, these photos won't be visible to the person who uploaded them. This way, the person who shared the images won't remember what they uploaded; only their friends will know.
 
 If you're someone who occasionally finds it challenging to choose the right gift, this app is your salvation. It makes everything easier for you.
+
+## Licence
+Todos los derechos reservados © 2023 [pablomgdev](https://github.com/pablomgdev).
