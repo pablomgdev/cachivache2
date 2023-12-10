@@ -17,5 +17,5 @@ With this app, individuals can upload pictures of things to let their friends kn
 
 If you're someone who occasionally finds it challenging to choose the right gift, this app is your salvation. It makes everything easier for you.
 
-## Licence
+## 🪪 Licence
 Todos los derechos reservados © 2023 [pablomgdev](https://github.com/pablomgdev).
