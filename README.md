@@ -7,8 +7,8 @@
 
 
 ## 📄 Table of content
-- [Why has this project been created?](https://github.com/pablomgdev/cachivache2#why-has-this-project-been-created)
-- [License](https://github.com/pablomgdev/cachivache2#license)
+- [Why has this project been created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
+- [License](https://github.com/pablomgdev/cachivache2#-license)
 
 
 ## ℹ️ Why has this project been created?
