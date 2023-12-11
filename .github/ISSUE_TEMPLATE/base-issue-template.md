@@ -1,8 +1,8 @@
 ---
-name: Feature issue template
-about: Issue template for a feature to be developed.
-title: "[FEAT]"
-labels: enhancement
+name: Base issue template
+about: Base template for features, documentation, and other issues.
+title: "[TYPE] Name"
+labels: ''
 assignees: ''
 
 ---
