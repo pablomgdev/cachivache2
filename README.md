@@ -8,7 +8,7 @@
 
 ## 📄 Table of content
 - [Why has this project been created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
-- [Project structure](️https://github.com/pablomgdev/cachivache2#️-project-structure)
+- [Project structure](https://github.com/pablomgdev/cachivache2#%EF%B8%8F-project-structure)
 - [License](https://github.com/pablomgdev/cachivache2#-license)
 
 
