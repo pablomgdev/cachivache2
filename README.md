@@ -8,6 +8,7 @@
 
 ## 📄 Table of content
 - [Why has this project been created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
+- [Project structure](️https://github.com/pablomgdev/cachivache2#️-project-structure)
 - [License](https://github.com/pablomgdev/cachivache2#-license)
 
 
@@ -17,6 +18,23 @@ Have you ever felt lost not knowing what to give someone because you're unsure o
 With this app, individuals can upload pictures of things to let their friends know about their preferences. However, these photos won't be visible to the person who uploaded them. This way, the person who shared the images won't remember what they uploaded; only their friends will know.
 
 If you're someone who occasionally finds it challenging to choose the right gift, this app is your salvation. It makes everything easier for you.
+
+## 🏛️ Project structure
+Pending explanation of each directory in the structure, its content, and purpose.
+
+```bash
+.
+├── README.md
+├── api
+│   └── handlers
+├── cmd
+│   └── cachivache2
+│       └── main.go
+├── go.mod
+├── go.sum
+├── internal
+└── pkg
+```
 
 ## 🪪 License
 Todos los derechos reservados © 2023 [pablomgdev](https://github.com/pablomgdev).
