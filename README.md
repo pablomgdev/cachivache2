@@ -8,7 +8,7 @@
 
 ## 📄 Table of content
 - [Why has this project been created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
-- [Project structure](https://github.com/pablomgdev/cachivache2#%EF%B8%8F-project-structure)
+- Built with
 - [License](https://github.com/pablomgdev/cachivache2#-license)
 
 
@@ -19,22 +19,8 @@ With this app, individuals can upload pictures of things to let their friends kn
 
 If you're someone who occasionally finds it challenging to choose the right gift, this app is your salvation. It makes everything easier for you.
 
-## 🏛️ Project structure
-Pending explanation of each directory in the structure, its content, and purpose.
-
-```bash
-.
-├── README.md
-├── api
-│   └── handlers
-├── cmd
-│   └── cachivache2
-│       └── main.go
-├── go.mod
-├── go.sum
-├── internal
-└── pkg
-```
+## 🧱 Built with
+- Golang 1.21.4.
 
 ## 🪪 License
 Todos los derechos reservados © 2023 [pablomgdev](https://github.com/pablomgdev).
