@@ -27,7 +27,7 @@ If you're someone who occasionally finds it challenging to choose the right gift
 To run this project, you need to set up the following environment variables. Create a `.env` file based on the provided sample:
 
 1. Copy `.env.sample` to `.env`.
-2. Open the `.env` file and replace the placeholder values with your actual configuration.
+1. Open the `.env` file and replace the placeholder values with your actual configuration.
 
 ## 🪪 License
 Todos los derechos reservados © 2023 [pablomgdev](https://github.com/pablomgdev).
