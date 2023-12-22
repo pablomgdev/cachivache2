@@ -7,20 +7,27 @@
 
 
 ## 📄 Table of content
-- [Why has this project been created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
-- Built with
+- [Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
+- Built With
+- Environtment Variables
 - [License](https://github.com/pablomgdev/cachivache2#-license)
 
 
-## ℹ️ Why has this project been created?
+## ℹ️ Why Has This Project Been Created?
 Have you ever felt lost not knowing what to give someone because you're unsure of their likes? Have you ever forgotten what your boyfriend or girlfriend wanted for their birthday? This app has been created to address these kinds of dilemmas in a clever way.
 
 With this app, individuals can upload pictures of things to let their friends know about their preferences. However, these photos won't be visible to the person who uploaded them. This way, the person who shared the images won't remember what they uploaded; only their friends will know.
 
 If you're someone who occasionally finds it challenging to choose the right gift, this app is your salvation. It makes everything easier for you.
 
-## 🧱 Built with
+## 🧱 Built With
 - Golang 1.21.4.
+
+## 📦 Environtment Variables
+To run this project, you need to set up the following environment variables. Create a `.env` file based on the provided sample:
+
+1. Copy `.env.sample` to `.env`.
+2. Open the `.env` file and replace the placeholder values with your actual configuration.
 
 ## 🪪 License
 Todos los derechos reservados © 2023 [pablomgdev](https://github.com/pablomgdev).
