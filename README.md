@@ -8,8 +8,8 @@
 
 ## 📄 Table of content
 - [Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
-- Built With
-- Environtment Variables
+- [Built With](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-built-with)
+- [Environtment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-environtment-variables)
 - [License](https://github.com/pablomgdev/cachivache2#-license)
 
 
