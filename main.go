@@ -9,18 +9,30 @@ import (
 )
 
 func main() {
+	// Environment variables
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal("Error loading .env file")
 	}
 	host := os.Getenv("HOST")
 	port := os.Getenv("PORT")
-	router := gin.Default()
-	router.GET("/", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "Hello, Gin!",
+
+	// Middlewares
+	router := gin.New()
+	router.Use(gin.Logger())
+	router.Use(gin.Recovery())
+
+	// Routes
+	v1Router := router.Group("api/v1")
+  {
+		v1Router.GET("/", func(c *gin.Context) {
+			c.JSON(200, gin.H{
+				"message": "Hello, Gin!",
+			})
 		})
-	})
+  }
+
+	// Starting server
 	log.Println("Starting server on: http://"+host+":"+port)
 	router.Run(":"+port)
 }

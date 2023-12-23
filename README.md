@@ -9,7 +9,7 @@
 ## 📄 Table of content
 - [Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
 - [Built With](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-built-with)
-- [Environtment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-environtment-variables)
+- [Environment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-environment-variables)
 - [License](https://github.com/pablomgdev/cachivache2#-license)
 
 
@@ -23,7 +23,7 @@ If you're someone who occasionally finds it challenging to choose the right gift
 ## 🧱 Built With
 - Golang 1.21.4.
 
-## 📦 Environtment Variables
+## 📦 Environment Variables
 To run this project, you need to set up the following environment variables. Create a `.env` file based on the provided sample:
 
 1. Copy `.env.sample` to `.env`.
