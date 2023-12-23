@@ -5,7 +5,7 @@
 > [!NOTE]
 > This solution replaces <a href=https://github.com/pablomgdev/cachivache2-api>cachivache2-api</a>. Now it is a monorepo with all the artefacts needed (frontend, backend, etc).
 
-
+<!--
 ## 📄 Table of content
 - [ℹ️ Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2#%E2%84%B9%EF%B8%8F-why-has-this-project-been-created)
 - [🧱 Project Setup](https://github.com/pablomgdev/cachivache2#-project-setup)
@@ -16,7 +16,7 @@
   - [Environment Variables](https://github.com/pablomgdev/cachivache2#environment-variables)
   - [Build and Run](https://github.com/pablomgdev/cachivache2#build-and-run)
 - [🪪 License](https://github.com/pablomgdev/cachivache2#-license)
-
+-->
 
 ## ℹ️ Why Has This Project Been Created?
 Have you ever felt lost not knowing what to give someone because you're unsure of their likes? Have you ever forgotten what your boyfriend or girlfriend wanted for their birthday? This app has been created to address these kinds of dilemmas in a clever way.
