@@ -7,10 +7,14 @@
 
 
 ## 📄 Table of content
-- [Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
-- [Built With](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-built-with)
-- [Environment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-environment-variables)
-- [License](https://github.com/pablomgdev/cachivache2#-license)
+- [ℹ️ Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
+- [🧱 Project Setup](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-setup)
+  - [Prerequisites](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-project-setup)
+  - [Docker Compose](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-project-setup)
+  - [Makefile Commands](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-project-setup)
+  - [Environment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-environment-variables)
+- [🚀 Launch Project](https://github.com/pablomgdev/cachivache2#-license)
+- [🪪 License](https://github.com/pablomgdev/cachivache2#-license)
 
 
 ## ℹ️ Why Has This Project Been Created?
@@ -20,14 +24,36 @@ With this app, individuals can upload pictures of things to let their friends kn
 
 If you're someone who occasionally finds it challenging to choose the right gift, this app is your salvation. It makes everything easier for you.
 
-## 🧱 Built With
-- Golang 1.21.4.
+## 🧱 Project Setup
+In this section is explained how to set up the project.
 
-## 📦 Environment Variables
+### Prerequisites
+- Golang 1.21.4: [Install Golang](https://go.dev/doc/install).
+- Docker: [Install Docker](https://docs.docker.com/get-docker/).
+- Make: [Install Make](https://www.gnu.org/software/make/).
+
+### Docker Compose
+This project uses Docker Compose for container orchestration. The configuration can be found in the `docker-compose.yml` file.
+
+### Makefile Commands
+The project includes a Makefile with the following commands:
+
+- `make build`: Build the project using Docker Compose.
+- `make run`: Run the project in detached mode.
+- `make down`: Stop and remove all containers, networks, and volumes.
+- `make logs`: View logs in real-time.
+
+### Environment Variables
 To run this project, you need to set up the following environment variables. Create a `.env` file based on the provided sample:
 
 1. Copy `.env.sample` to `.env`.
 1. Open the `.env` file and replace the placeholder values with your actual configuration.
+
+## 🚀 Launch Project
+To build and run the project once it is set up, follow these steps:
+
+1. Build the project: `make build`.
+1. Run the project: `make run`.
 
 ## 🪪 License
 Todos los derechos reservados © 2023 [pablomgdev](https://github.com/pablomgdev).
