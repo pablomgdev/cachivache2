@@ -2,20 +2,6 @@
 .git
 .svn
 
-# Exclude Go build artifacts and binaries.
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-/_test
-
-# Exclude Go dependency management files
-go.sum
-go.mod
-
 # Directories.
 **/bin/
 **/obj/
@@ -29,6 +15,14 @@ Dockerfile*
 **/*.ps1
 **/*.cmd
 **/*.sh
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/_test
 
 # Exclude other temporary or unnecessary files.
 .tmp/
