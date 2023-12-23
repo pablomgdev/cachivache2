@@ -8,12 +8,12 @@
 
 ## 📄 Table of content
 - [ℹ️ Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
-- [🧱 Project Setup](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-setup)
-  - [Prerequisites](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-project-setup)
-  - [Docker Compose](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-project-setup)
-  - [Makefile Commands](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-project-setup)
-  - [Environment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-environment-variables)
-- [🚀 Launch Project](https://github.com/pablomgdev/cachivache2#-license)
+- [🧱 Project Setup](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-project-setup)
+  - [Prerequisites](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#prerequisites)
+  - [Docker Compose](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#docker-compose)
+  - [Makefile Commands](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#makefile-commands)
+  - [Environment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#environment-variables)
+- [🚀 Launch Project](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-launch-project)
 - [🪪 License](https://github.com/pablomgdev/cachivache2#-license)
 
 
