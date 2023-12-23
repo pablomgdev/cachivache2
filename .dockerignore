@@ -1,0 +1,35 @@
+# Exclude version control system directories.
+.git
+.svn
+
+# Exclude Go build artifacts and binaries.
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/_test
+
+# Exclude Go dependency management files
+go.sum
+go.mod
+
+# Directories.
+**/bin/
+**/obj/
+**/out/
+
+# Files.
+Dockerfile*
+.dockerignore
+**/*.trx
+**/*.md
+**/*.ps1
+**/*.cmd
+**/*.sh
+
+# Exclude other temporary or unnecessary files.
+.tmp/
+*.log
