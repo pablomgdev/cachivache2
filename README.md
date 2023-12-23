@@ -12,8 +12,9 @@
   - [Prerequisites](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#prerequisites)
   - [Docker Compose](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#docker-compose)
   - [Makefile Commands](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#makefile-commands)
-  - [Environment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#environment-variables)
 - [🚀 Launch Project](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-launch-project)
+  - [Environment Variables](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#environment-variables)
+  - [Build and Run](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#build-and-run)
 - [🪪 License](https://github.com/pablomgdev/cachivache2#-license)
 
 
@@ -25,7 +26,7 @@ With this app, individuals can upload pictures of things to let their friends kn
 If you're someone who occasionally finds it challenging to choose the right gift, this app is your salvation. It makes everything easier for you.
 
 ## 🧱 Project Setup
-In this section is explained how to set up the project.
+In this section is explained how the setup is done and how to set up the project.
 
 ### Prerequisites
 - Golang 1.21.4: [Install Golang](https://go.dev/doc/install).
@@ -43,14 +44,15 @@ The project includes a Makefile with the following commands:
 - `make down`: Stop and remove all containers, networks, and volumes.
 - `make logs`: View logs in real-time.
 
+## 🚀 Launch Project
 ### Environment Variables
 To run this project, you need to set up the following environment variables. Create a `.env` file based on the provided sample:
 
 1. Copy `.env.sample` to `.env`.
 1. Open the `.env` file and replace the placeholder values with your actual configuration.
 
-## 🚀 Launch Project
-To build and run the project once it is set up, follow these steps:
+### Build and Run
+To build and run the project, follow these steps:
 
 1. Build the project: `make build`.
 1. Run the project: `make run`.
