@@ -1,6 +1,7 @@
 package main
 
 import (
+	"cachivache2/api/routers"
 	"log"
 	"os"
 
@@ -23,14 +24,7 @@ func main() {
 	router.Use(gin.Recovery())
 
 	// Routes
-	v1Router := router.Group("api/v1")
-  {
-		v1Router.GET("/", func(c *gin.Context) {
-			c.JSON(200, gin.H{
-				"message": "Hello, Gin!",
-			})
-		})
-  }
+	routers.SetExampleRoutes(router)
 
 	// Starting server
 	log.Println("Starting server on: http://"+host+":"+port)
