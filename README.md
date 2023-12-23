@@ -7,7 +7,7 @@
 
 
 ## 📄 Table of content
-- [ℹ️ Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2#ℹ%EF%B8%8F-why-has-this-project-been-created)
+- [ℹ️ Why Has This Project Been Created?](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#%E2%84%B9%EF%B8%8F-why-has-this-project-been-created)
 - [🧱 Project Setup](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#-project-setup)
   - [Prerequisites](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#prerequisites)
   - [Docker Compose](https://github.com/pablomgdev/cachivache2?tab=readme-ov-file#docker-compose)
