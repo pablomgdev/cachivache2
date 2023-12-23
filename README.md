@@ -26,7 +26,7 @@ With this app, individuals can upload pictures of things to let their friends kn
 If you're someone who occasionally finds it challenging to choose the right gift, this app is your salvation. It makes everything easier for you.
 
 ## 🧱 Project Setup
-In this section is explained how the setup is done and how to set up the project.
+In this section is explained how to set up the project.
 
 ### Prerequisites
 - Golang 1.21.4: [Install Golang](https://go.dev/doc/install).
