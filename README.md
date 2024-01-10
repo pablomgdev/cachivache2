@@ -29,9 +29,12 @@ If you're someone who occasionally finds it challenging to choose the right gift
 In this section is explained how to set up the project.
 
 ### Prerequisites
+Prerequisites are required only if Docker Compose is not used.
+
 - Golang 1.21.4: [Install Golang](https://go.dev/doc/install).
 - Docker: [Install Docker](https://docs.docker.com/get-docker/).
 - Make: [Install Make](https://www.gnu.org/software/make/).
+- PostgreSQL 1.6: [Install PostgreSQL](https://www.postgresql.org/download/).
 
 ### Docker Compose
 This project uses Docker Compose for container orchestration. The configuration can be found in the `docker-compose.yml` file.

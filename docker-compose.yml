@@ -1,6 +1,7 @@
 services:
   api:
     container_name: cachivache2-api
+    # TODO: check restart strategies to use the most appropriate one.
     build:
       context: .
       dockerfile: Dockerfile
@@ -8,3 +9,26 @@ services:
       - "8080:8080"
     environment:
       - GIN_MODE=release
+
+  database:
+    image: postgres:16.1
+    container_name: cachivache2-database
+    # TODO: check restart strategies to use the most appropriate one.
+    restart: always
+    environment:
+      POSTGRES_DB: cachivache2-database
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin4
+    # TODO: check restart strategies to use the most appropriate one.
+    restart: always
+    ports:
+      - "8888:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@cachivache2.com
+      PGADMIN_DEFAULT_PASSWORD: admin
