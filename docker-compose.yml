@@ -17,10 +17,15 @@ services:
     restart: always
     environment:
       POSTGRES_DB: cachivache2-database
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
+    volumes:
+      # Persist data.
+      - ./database/data:/var/lib/postgresql/data
+      # Initialization scripts.
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   pgadmin:
     image: dpage/pgadmin4
@@ -30,5 +35,5 @@ services:
     ports:
       - "8888:80"
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@cachivache2.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_DEFAULT_EMAIL: postgres@cachivache2.com
+      PGADMIN_DEFAULT_PASSWORD: postgres
