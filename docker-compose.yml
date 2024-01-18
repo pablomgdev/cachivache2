@@ -16,7 +16,7 @@ services:
     # TODO: check restart strategies to use the most appropriate one.
     restart: always
     environment:
-      POSTGRES_DB: cachivache2-database
+      POSTGRES_DB: cachivache2
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
