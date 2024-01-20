@@ -2,21 +2,15 @@ package main
 
 import (
 	"cachivache2/api/routers"
+	"cachivache2/internal/secrets"
 	"log"
-	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/joho/godotenv"
 )
 
 func main() {
-	// Environment variables
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal("Error loading .env file")
-	}
-	host := os.Getenv("HOST")
-	port := os.Getenv("PORT")
+	host := secrets.SecretsManager.GetSecret("HOST")
+	port := secrets.SecretsManager.GetSecret("PORT")
 
 	// Middlewares
 	router := gin.New()
